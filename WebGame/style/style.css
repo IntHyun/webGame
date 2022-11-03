@@ -1,0 +1,91 @@
+/* 레이아웃 */
+
+.ir {
+    position: absolute;
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+.hide {
+    display: none;
+}
+
+.cont-relay {
+    padding-top: 50px;
+}
+
+.cont-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.cont-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img-user {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.word-input {
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: burlywood;
+    width: 200px;
+}
+
+.put-word,
+.put-word2 {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 30px;
+}
+
+.input-text {
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.btn-start {
+    background-color: chartreuse;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 30%;
+}
+
+.turn {
+}

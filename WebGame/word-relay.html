@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>끝말잇기</title>
+        <link rel="stylesheet" href="style/reset.css" />
+        <link rel="stylesheet" href="style/style.css" />
+    </head>
+    <body>
+        <button class="btn-start">시작하기!</button>
+        <article class="cont-relay hide">
+            <div class="cont-header">
+                <h1 class="ir">끝말잇기 게임</h1>
+                <strong>게임을 시작합니다!</strong>
+            </div>
+            <div class="test">
+                <div class="cont-user">
+                    <img src="images/test.jpg" class="img-user" alt="" />
+                    <span class="turn">니 차례야!</span>
+                    <div class="put-word">단어 입력받을 공간</div>
+                </div>
+                <span class="tresh">VS</span>
+                <div class="cont-user">
+                    <img src="images/test.jpg" class="img-user" alt="" />
+                    <span class="turn">니 차례야!</span>
+                    <div class="put-word2">단어 입력받을 공간</div>
+                </div>
+            </div>
+            <p class="word-input">제시어 : 정수현</p>
+            <input class="input-text" type="text" />
+        </article>
+        <script src="js/index.js"></script>
+    </body>
+    <script>
+        // const $getJoin = document.querySelector('#join-number');
+        // const $getJoinBtn = document.querySelector('#join-confirm');
+        // const $test = document.querySelector('#test');
+        // const $container = document.querySelector('#container');
+        // const $order = document.querySelector('#order');
+        // const $word = document.querySelector('#word');
+        // const $containerFrom = document.querySelector('#container-form');
+        // const $relayText = $containerFrom.querySelector('input');
+        // const $relayTextBtn = $containerFrom.querySelector('button');
+        // const $hideCont = document.querySelector('.hide');
+
+        // let numberOfJoin = [];
+
+        // $getJoinBtn.addEventListener('click', function () {
+        //     if ($getJoin.value === '') {
+        //         alert('참여 인원을 입력해주세요!');
+        //     } else if ($getJoin.value > 6) {
+        //         alert('참여 인원은 다섯 명 까지입니다.');
+        //         $getJoin.value = '';
+        //     } else {
+        //         $hideCont.classList.remove('hide');
+        //         numberOfJoin.push(parseInt($getJoin.value));
+        //         $getJoin.value = '';
+        //         console.log(numberOfJoin);
+        //         const p = document.createElement('p');
+        //         p.textContent = '끝말잇기를 시작합니다!';
+        //         $test.appendChild(p);
+        //         $container.classList.add('hide');
+        //     }
+        // });
+
+        // $relayTextBtn.addEventListener('click', function (event) {
+        //     event.preventDefault();
+        //     let save = [];
+        //     save.push($relayText.value);
+        //     let textLength = save[0].length - 1;
+        //     $word.textContent = $relayText.value;
+        //     console.log('저장값 : ' + save[0][textLength]);
+        //     console.log('입력값 : ' + $relayText.value[0]);
+        //     $relayText.value = '';
+        // });
+    </script>
+</html>
