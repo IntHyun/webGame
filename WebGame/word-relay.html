@@ -7,6 +7,7 @@
         <title>끝말잇기</title>
         <link rel="stylesheet" href="style/reset.css" />
         <link rel="stylesheet" href="style/style.css" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
         <button class="btn-start">시작하기!</button>
@@ -18,18 +19,21 @@
             <div class="test">
                 <div class="cont-user">
                     <img src="images/test.jpg" class="img-user" alt="" />
-                    <span class="turn">니 차례야!</span>
-                    <div class="put-word">단어 입력받을 공간</div>
+                    <span class="turn">&nbsp;</span>
+                    <div class="put-word">&nbsp;</div>
                 </div>
                 <span class="tresh">VS</span>
                 <div class="cont-user">
                     <img src="images/test.jpg" class="img-user" alt="" />
-                    <span class="turn">니 차례야!</span>
-                    <div class="put-word2">단어 입력받을 공간</div>
+                    <span class="turn2">&nbsp;</span>
+                    <div class="put-word2">&nbsp;</div>
                 </div>
             </div>
-            <p class="word-input">제시어 : 정수현</p>
-            <input class="input-text" type="text" />
+            <p class="word-input"></p>
+            <form action="">
+                <input class="input-text" type="text" />
+                <button class="submit">확인</button>
+            </form>
         </article>
         <script src="js/index.js"></script>
     </body>
