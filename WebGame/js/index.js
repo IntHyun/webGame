@@ -41,7 +41,7 @@ $submit.addEventListener('click', function (event) {
             words = $inputWord.value;
             $inputWord.value = null;
             $putWord.textContent = words;
-            $turnOn2.textContent = '니 차례야!';
+            $turnOn2.textContent = '마 해라';
             $turnOn.innerHTML = '&nbsp';
             $putWord2.innerHTML = '&nbsp';
         }
@@ -53,7 +53,7 @@ $submit.addEventListener('click', function (event) {
             words = $inputWord.value;
             $inputWord.value = null;
             $putWord2.textContent = words;
-            $turnOn.textContent = '니 차례야!';
+            $turnOn.textContent = '마 해라';
             $turnOn2.innerHTML = '&nbsp';
             $putWord.innerHTML = '&nbsp';
         }
